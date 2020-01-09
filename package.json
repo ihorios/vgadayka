@@ -1,0 +1,22 @@
+{
+  "name": "vgadayka",
+  "version": "1.0.0",
+  "description": "Vgadayka game",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[Dapp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihorios/vgadayka.git"
+  },
+  "keywords": [
+    "vgadayka"
+  ],
+  "author": "ios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihorios/vgadayka/issues"
+  },
+  "homepage": "https://github.com/ihorios/vgadayka#readme"
+}
