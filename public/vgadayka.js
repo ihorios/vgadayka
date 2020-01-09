@@ -14,6 +14,8 @@ $(document).ready(function(){
 		}
 		else if(isNaN(value)){
 			$("#result").text("Некоректне введення");
+		else if(ans = 0){
+			$("#result").text("Некоректне введення");
 		}
 		else {
 			$("#result").text("Так ти вгадав! Це число : "+ ans + "!");
