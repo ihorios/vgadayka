@@ -2,9 +2,10 @@
   "name": "vgadayka",
   "version": "1.0.0",
   "description": "Vgadayka game",
-  "main": "\u001b[D\u001b[D\u001b[D\u001b[Dapp",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ihorios/vgadayka/issues"
   },
-  "homepage": "https://github.com/ihorios/vgadayka#readme"
+  "homepage": "https://github.com/ihorios/vgadayka#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
 }
