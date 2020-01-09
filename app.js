@@ -1,5 +1,5 @@
 var static = require('node-static');
-var file = new static.Server({ indexFile: "index.htm" });
+var file = new static.Server('./public', { indexFile: 'index.htm' });
 require('http').createServer(function(request, response) {
   request.addListener('end', function() {
     file.serve(request, response);
