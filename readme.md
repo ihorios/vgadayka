@@ -9,3 +9,9 @@
  - add deploy branch `heroku git:remote -a vgadayka` 
  - `git push heroku master`
  
+### Changes:
+ - `git status`
+ - `git add .`
+ - `git commit -m '#1'`
+ - `git push [origin master]`
+ 
